@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 @st.cache_rsource
-def carrega_modelo():
+def carrega_modelo():   
     
     
     url = 'https://drive.google.com/file/d/1WwwBIUbLem7BEbCXbx7CmKNF-l6O_RI9/view?usp=drive_link'
