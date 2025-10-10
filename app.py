@@ -6,11 +6,11 @@ from PIL import Image
 import numpy as np
 import pandas as pd
 import plotly.express as px
+
 @st.cache_rsource
-def carrega_modelo():   
-    
-   
-    url = 'https://drive.google.com/uc?id=1WwwBIUbLem7BEbCXbx7CmKNF-l6O_RI9'
+def carrega_modelo():    
+    #https://drive.google.com/file/d/1PODsmGEITfQNtk_-IWlNedtKNVJd1lN2/view?usp=drive_link
+    url = 'https://drive.google.com/uc?id=1PODsmGEITfQNtk_-IWlNedtKNVJd1lN2'
 
     gdown.download(url,'modelo_quantizado16bits.tflite')
     interpreter = tf.lite.Interpreter(model_path='modelo_quantizado16bits.tflite')
