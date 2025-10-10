@@ -55,9 +55,9 @@ def main():
 
     st.set_page_config(
         page_title="Classifica Folhas de Videira",
-        page_icon="��",
+        page_icon="",
     )
-    st.write("# Classifica Folhas de Videira! ��")
+    st.write("# Classifica Folhas de Videira!")
     #Carrega modelo
     interpreter = carrega_modelo()
     #Carrega imagem
