@@ -66,5 +66,5 @@ def main():
     if image is not None:
         previsao(interpreter, image)
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
         main()
